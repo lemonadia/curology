@@ -117,3 +117,12 @@ section.content:nth-child(odd) div.content {
   background-color: white;
   height: 100px;
 }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
