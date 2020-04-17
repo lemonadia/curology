@@ -1,6 +1,6 @@
 # Curology
 
-See it <a href="https://clever-jones-4a5cc0.netlify.app">HERE</a>
+See it <a href="https://clever-jones-4a5cc0.netlify.app">HERE</a> <br>
 Landing page that uses different scroll JS methods - made for fun and to explore JS possibilities
 
 ## Used features 
