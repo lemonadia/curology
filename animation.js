@@ -9,13 +9,13 @@ animatedTags.forEach((tag) => {
 const fadeIn = function () {
   //look at all the animated tags and see with the getBoundingClientRect if it is the window
 
-  let delay = 0.1;
+  let delay = 0.05;
   animatedTags.forEach((tag) => {
     const tagTop = tag.getBoundingClientRect().top;
     const bottomTag = tag.getBoundingClientRect().bottom;
     if (tagTop < window.innerHeight && bottomTag > 0) {
       tag.style.animation = `fadein 1s ${delay}s both`;
-      delay = delay + 0.1;
+      delay = delay + 0.05;
     } else {
       tag.style.opacity = 0;
       tag.style.animation = "";
